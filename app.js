@@ -6,25 +6,26 @@ let equal = document.querySelector('.btn-equal');
 buttons.forEach(function(button){
     button.addEventListener('click', function(e){
         let value = e.target.dataset.num;
-        if (value === '+' || value === '-' || value === '*' || value === '/') {
-            if (screen.value.includes('+') || screen.value.includes('-') || screen.value.includes('*') || screen.value.includes('/')) {
-                let answer = eval(screen.value);
-                screen.value = answer + value;
-            } else {
-                screen.value += value;
-            }
-        } else {
-            screen.value += value;
-        }
+        screen.value += value;
     })
 });
 
 equal.addEventListener('click', function(e){
-    let answer = eval(screen.value);
-    screen.value = answer;
+    if(screen.value === ''){
+        screen.value = '';
+    } else {
+        let answer = eval(screen.value);
+        if (answer === Infinity) {
+            screen.value = "Error: Don't divide by 0, it's rude.";
+        } else {
+            answer = Math.round(answer * 100) / 100;
+            screen.value = answer;
+        }
+    }
 });
 
 clear.addEventListener('click', function(e){
     screen.value = '';
 });
+
 
