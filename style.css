@@ -67,11 +67,27 @@ body {
   .btn-equal {
     background-color: #2E8B57;
     color: white;
+    width: calc(25% - 10px);
+    height: 60px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
   .btn-clear {
     background-color: #FF6347;
     color: black;
+    width: calc(25% - 10px);
+    height: 60px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
   .btn-yellow {
