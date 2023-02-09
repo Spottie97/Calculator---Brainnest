@@ -6,6 +6,7 @@
     <title>Calculator App</title>
   </head>
   <body>
+    <!--Header Section-->
     <section>
         <header>
             <h1>
@@ -18,11 +19,12 @@
             <input type="text" class="screen">
         </form>
         <div class="buttons">
+            <!--Operator Buttons-->
             <button type="button" class="btn btn-yellow" data-num="*">*</button>
             <button type="button" class="btn btn-yellow" data-num="/">/</button>
             <button type="button" class="btn btn-yellow" data-num="+">+</button>
             <button type="button" class="btn btn-yellow" data-num="-">-</button>
-
+            <!--Number Buttons-->
             <button type="button" class="btn btn-grey" data-num="9">9</button>
             <button type="button" class="btn btn-grey" data-num="8">8</button>
             <button type="button" class="btn btn-grey" data-num="7">7</button>
@@ -34,13 +36,14 @@
             <button type="button" class="btn btn-grey" data-num="1">1</button>
             <button type="button" class="btn btn-grey" data-num="0">0</button>
             <button type="button" class="btn btn-grey" data-num=".">.</button>
-
-            <button type="button" class="btn btn-grey">=</button>
-            <button type="button" class="btn btn-grey">C</button>
+            <!--Output & Reset Buttons-->
+            <button type="button" class="btn btn-equal" data-num="=">=</button>
+            <button type="button" class="btn btn-clear" data-num="C">C</button> 
         </div>
     </section>
-
+    <!--JavaScript Code-->
     <script src="app.js"></script>
+    <!--Footer-->
     <footer>
       <p>Copyright © 2023 Calculator App</p>
     </footer>

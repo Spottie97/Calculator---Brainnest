@@ -56,15 +56,33 @@ body {
     cursor: pointer;
   }
   
+  .button[type="button"] {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .btn-equal {
+    background-color: #2E8B57;
+    color: white;
+  }
+  
+  .btn-clear {
+    background-color: #FF6347;
+    color: black;
+  }
+  
   .btn-yellow {
-    background-color: #ffc107;
-    color: #fff;
+    background-color: #FFD700;
   }
   
   .btn-grey {
-    background-color: #ccc;
-    color: #000;
+    background-color: #C0C0C0;
+    color: black;
   }
+  
   
   footer {
     text-align: center;
