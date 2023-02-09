@@ -9,7 +9,7 @@ buttons.forEach(function(button){
         screen.value += value;
     })
 });
-
+// Equal Button
 equal.addEventListener('click', function(e){
     if(screen.value === ''){
         screen.value = '';
@@ -23,9 +23,7 @@ equal.addEventListener('click', function(e){
         }
     }
 });
-
+// Clear Button
 clear.addEventListener('click', function(e){
     screen.value = '';
 });
-
-
