@@ -4,8 +4,8 @@ let clear = document.querySelector('.btn-clear');
 let equal = document.querySelector('.btn-equal');
 let backspace = document.querySelector('.btn-backspace');
 
-buttons.forEach(function(button){
-    button.addEventListener('click', function(e){
+buttons.forEach(function (button) {
+    button.addEventListener('click', function (e) {
         let value = e.target.dataset.num;
         if (value === "." && screen.value.includes(".")) {
             return;
@@ -15,8 +15,8 @@ buttons.forEach(function(button){
 });
 
 // Equal Button
-equal.addEventListener('click', function(e){
-    if(screen.value === ''){
+equal.addEventListener('click', function (e) {
+    if (screen.value === '') {
         screen.value = '';
     } else {
         let answer = eval(screen.value);
@@ -29,17 +29,17 @@ equal.addEventListener('click', function(e){
     }
 });
 //Backspace Button
-backspace.addEventListener('click', function(e) {
+backspace.addEventListener('click', function (e) {
     screen.value = screen.value.slice(0, -1);
 });
 
 // Clear Button
-clear.addEventListener('click', function(e){
+clear.addEventListener('click', function (e) {
     screen.value = '';
 });
 
 //Keyboard Functionality
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function (e) {
     let key = e.key;
     if (!isNaN(key)) {
         screen.value += key;
