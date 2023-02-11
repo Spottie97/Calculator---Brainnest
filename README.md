@@ -3,6 +3,9 @@
 ## Context
 This is a calculator app I had to create for a Brainnest Assignment. I was written in JavaScript, CSS and HTML. You can TEST it <a href="https://spottie97.github.io/Calculator---Brainnest/">here</a>.
 
+![image](https://user-images.githubusercontent.com/65610257/218254913-d7a24fb2-ae97-4867-9068-ad2681337e67.png)
+
+
 ## Features
 - Covers the basic function of the 4 main operators(+ , - , * , /)
 - Has Backspace functionality for if you made a mistake
