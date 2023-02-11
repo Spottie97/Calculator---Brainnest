@@ -1,7 +1,7 @@
 # Calculator---Brainnest
 
 ## Context
-This is a calculator app I had to create for a Brainnest Assignment. I was written in JavaScript, CSS and HTML.
+This is a calculator app I had to create for a Brainnest Assignment. I was written in JavaScript, CSS and HTML. You can TEST it <a href="https://spottie97.github.io/Calculator---Brainnest/">here</a>.
 
 ## Features
 - Covers the basic function of the 4 main operators(+ , - , * , /)
