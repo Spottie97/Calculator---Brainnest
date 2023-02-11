@@ -93,11 +93,25 @@ body {
   .btn-yellow {
     background-color: #FFD700;
   }
+
   
   .btn-grey {
     background-color: #C0C0C0;
     color: black;
   }
+
+  .btn-backspace {
+    background-color: #C0C0C0;
+    color: black;
+    width: calc(25% - 10px);
+    height: 60px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
   
   
   footer {
